@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج تسجيل الدخول</title>
+    <style>
+        /* تنسيق الخلفية */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('./img/back.jpeg'); /* استبدل الرابط بالصورة التي تريدها */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* تنسيق المربع الخاص بتسجيل الدخول */
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.8); /* خلفية شفافة مع لون أبيض */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .input-field:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .login-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .signup-link {
+            margin-top: 10px;
+            display: block;
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .signup-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>تسجيل الدخول</h2>
+        <form action="#" method="POST">
+            <input type="text" class="input-field" placeholder="البريد الإلكتروني" name="email" required>
+            <input type="password" class="input-field" placeholder="كلمة المرور" name="password" required>
+            <button type="submit" class="login-btn">تسجيل الدخول</button>
+        </form>
+        <a href="#" class="signup-link">ليس لديك حساب؟ سجل الآن</a>
+    </div>
+
+</body>
+</html>

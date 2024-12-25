@@ -1,0 +1,34 @@
+.buy-now-button {
+    background-color: #4cAF50; /* اللون الأخضر */
+    color: white; /* النص باللون الأبيض */
+    padding: 2px 15px; /* الحشو */
+    text-align: center; /* محاذاة النص */
+    text-decoration: none; /* إزالة أي تنسيق نصي */
+    display: inline-block; /* جعل الزر يعرض في سطر واحد */
+    font-size: 16px; /* حجم الخط */
+    border-radius: 5px; /* تدوير الحواف */
+    transition: background-color 0.3s; /* تأثير الانتقال */
+}
+
+.buy-now-button:hover {
+    background-color: #45a; /* تغيير اللون عند المرور بالفأرة */
+}
+
+
+.login-link {
+    background-color: #4cAF50; /* اللون الأخضر */
+    color:white; /* اللون الخط الأخضر */
+    padding: 2px 15px; /* الحشو */
+    text-align: center; /* محاذاة النص */
+    text-decoration: none; /* إزالة أي تنسيق نصي */
+    display: inline-block; /* جعل الزر يعرض في سطر واحد */
+    border-radius: 5px; /* تدوير الحواف */
+    transition: background-color 0.3s; /* تأثير الانتقال */
+    font-size: 16px; /* حجم الخط */
+    text-decoration: none; /* إزالة التسطير */
+}
+
+.login-link:hover {
+    color: #45a; /* تغيير اللون عند المرور بالفأرة */
+}
+

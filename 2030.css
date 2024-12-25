@@ -1,0 +1,136 @@
+.body{
+    font-family:Almarai ;
+}
+.buy-now-button {
+    background-color: #007BFF;
+    color: white; /* النص باللون الأبيض */
+    padding: 2px 15px; /* الحشو */
+    text-align: center; /* محاذاة النص */
+    text-decoration: none; /* إزالة أي تنسيق نصي */
+    display: inline-block; /* جعل الزر يعرض في سطر واحد */
+    font-size: 16px; /* حجم الخط */
+    border-radius: 5px; /* تدوير الحواف */
+    transition: background-color 0.3s; /* تأثير الانتقال */
+}
+
+.buy-now-button:hover {
+    background-color: #45a; /* تغيير اللون عند المرور بالفأرة */
+}
+
+
+.login-link {
+    background-color: #007BFF;
+    color:white; /* اللون الخط الأخضر */
+    padding: 2px 15px; /* الحشو */
+    text-align: center; /* محاذاة النص */
+    text-decoration: none; /* إزالة أي تنسيق نصي */
+    display: inline-block; /* جعل الزر يعرض في سطر واحد */
+    border-radius: 5px; /* تدوير الحواف */
+    transition: background-color 0.3s; /* تأثير الانتقال */
+    font-size: 16px; /* حجم الخط */
+    text-decoration: none; /* إزالة التسطير */
+}
+
+.login-link:hover {
+    color: #45a; /* تغيير اللون عند المرور بالفأرة */
+}
+
+
+
+.video_sa {   /*فديو الخلفية*/
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -999;
+}
+
+
+
+video {/*الفديو*/
+    width: 50%;
+    height: 50%;
+}
+
+
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+
+}
+
+
+.top-title {
+    text-align: center; /* توسيط النص أفقياً */
+    font-size: 50px; /* حجم الخط */
+    font-weight: bold; /* جعل الخط عريض */
+    margin-top: 40px; /* إضافة مساحة من الأعلى */
+    color: white;
+
+}
+.top-title1 {
+    text-align: center; /* توسيط النص أفقياً */
+    font-size: 35px; /* حجم الخط */
+    
+    margin-top: 20px; /* إضافة مساحة من الأعلى */
+    color: whitesmoke;
+}
+
+
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(./img/back.jpeg);
+}
+.card2{
+    background-image: url(./img/m.jpg);
+}
+.card3 {
+    background-image: url(./img/H.jpeg);
+}
+.card4 {
+    background-image: url(./img/n.jpeg);
+}
+
+
+.card:hover{
+ transform: translateY(-10px);
+}
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
